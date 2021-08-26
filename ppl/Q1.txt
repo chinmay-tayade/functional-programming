@@ -1,0 +1,16 @@
+CAR ==> the first element of its list parameter
+   (CAR ′(A B C)) ==> A
+
+CDR ==> the remainder of its list parameter after the first element has been removed
+   (CDR ′(A B C)) ==> (B C)
+
+CONS puts its first parameter into its second parameter, a list, to make a new list
+ (CONS ′A ′(B C)) ==> (A B C)
+
+LIST ==> a new list of its parameters
+ (LIST ′A ′B ′(C D)) ==> (A B (C D))
+
+(EQV? 6 6) ==> #T
+
+(EQV? 3 4) ==> #F
+
